@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/billiard"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="231dp"
+        android:layout_height="291dp"
+        android:contentDescription="@string/blackjacklogo"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/blackjack" />
+
+    <TextView
+        android:id="@+id/emptytextView"
+        android:layout_width="287dp"
+        android:layout_height="376dp"
+        android:background="@drawable/rounded_corner_view"
+        android:text="@string/emptytextview"
+        android:textColor="#4DD0E1"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.829"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/playbutton"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_background_color_1"
+        android:fontFamily="@font/ubuntubold"
+        android:text="@string/play_button"
+        android:textColor="@color/billiard"
+        android:textSize="50sp"
+        android:onClick="irGame"
+        app:layout_constraintBottom_toBottomOf="@+id/emptytextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.234"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/scorebutton"
+        android:layout_width="234dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/button_background_color_1"
+        android:fontFamily="@font/ubuntubold"
+        android:text="@string/score_button"
+        android:textColor="@color/billiard"
+        android:textSize="22sp"
+        android:onClick="irScores"
+        app:layout_constraintBottom_toBottomOf="@+id/emptytextView"
+        app:layout_constraintEnd_toEndOf="@+id/emptytextView"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/emptytextView"
+        app:layout_constraintTop_toBottomOf="@+id/playbutton"
+        app:layout_constraintVertical_bias="0.353"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/howtoplaybutton"
+        android:layout_width="234dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/button_background_color_1"
+        android:fontFamily="@font/ubuntubold"
+        android:onClick="irHowToPlay"
+        android:text="@string/howtoplay"
+        android:textColor="@color/billiard"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/emptytextView"
+        app:layout_constraintEnd_toEndOf="@+id/emptytextView"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/emptytextView"
+        app:layout_constraintTop_toBottomOf="@+id/scorebutton"
+        app:layout_constraintVertical_bias="0.09"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="202dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/ubuntubold"
+        android:text="@string/author"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/musicButton"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="@drawable/circle_view"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/music"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

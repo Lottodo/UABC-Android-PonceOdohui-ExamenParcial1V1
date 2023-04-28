@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutMain"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10sp"
+    android:background="@drawable/rounded_corner_view_blue">
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/playersName"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="@font/ubunturegular"
+            android:gravity="left"
+            android:text="Jugador"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/carta1"
+                android:layout_width="28dp"
+                android:layout_height="43dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.249"
+                app:srcCompat="@drawable/cardback"/>
+
+            <ImageView
+                android:id="@+id/carta2"
+                android:layout_width="28dp"
+                android:layout_height="43dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.249"
+                app:srcCompat="@drawable/cardback"/>
+
+            <ImageView
+                android:id="@+id/carta3"
+                android:layout_width="28dp"
+                android:layout_height="43dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.249"
+                app:srcCompat="@drawable/cardback"/>
+            <ImageView
+                android:id="@+id/carta4"
+                android:layout_width="28dp"
+                android:layout_height="43dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.249"
+                app:srcCompat="@drawable/cardback"/>
+            <ImageView
+                android:id="@+id/carta5"
+                android:layout_width="28dp"
+                android:layout_height="43dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.249"
+                app:srcCompat="@drawable/cardback"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dateView"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="@font/ubunturegular"
+            android:gravity="center"
+            android:text="XX/XX/XXXX"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/hourView"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="@font/ubunturegular"
+            android:gravity="center"
+            android:text="XX:XXxx"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+</LinearLayout>

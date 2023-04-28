@@ -1,0 +1,9 @@
+Pedro,ac dost trese X X,10/12/2077,10:35am,1
+Juan,qc kt cuatroe X X,05/06/2026,05:21pm,0
+Pablo,ac diezt X X X,21/09/2001,09:12pm,1
+Player,at qt X X X,31/01/1991,08:21pm,1
+Jugador,ad jt X X X,05/06/2026,05:21pm,0
+P1,ad jt X X X,05/06/2026,05:21pm,1
+P2,ad jt X X X,05/06/2026,05:21pm,1
+P3,ad jt X X X,05/06/2026,05:21pm,0
+P4,ad jt X X X,05/06/2026,05:21pm,0

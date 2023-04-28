@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackjackbackground"
+    android:screenOrientation="portrait"
+    app:layoutDescription="@xml/activity_game_scene2"
+    tools:context=".gameActivity">
+
+
+    <ImageView
+        android:id="@+id/cartaCPU1"
+        android:layout_width="56dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/cardback"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/cartaCPU5"
+        android:layout_width="56dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/cartaCPU4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/cardback"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/cartaCPU3"
+        android:layout_width="56dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/cartaCPU2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/cardback"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/cartaCPU4"
+        android:layout_width="56dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/cartaCPU3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/cardback"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/cartaCPU2"
+        android:layout_width="56dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/cartaCPU1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/cardback"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/carta5"
+        android:layout_width="56dp"
+        android:layout_height="86dp"
+        android:onClick="openCardDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toEndOf="@+id/carta4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893"
+        android:layout_marginLeft="5sp"
+        app:srcCompat="@drawable/cardback"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/pausaButton"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="@drawable/circle_view"
+        android:onClick="openPauseMenu"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/pausesign"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/carta1"
+        android:layout_width="56dp"
+        android:layout_height="86dp"
+        android:onClick="openCardDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892"
+        android:layout_marginLeft="20sp"
+        app:srcCompat="@drawable/cardback"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/carta2"
+        android:layout_width="56dp"
+        android:layout_height="86dp"
+        android:onClick="openCardDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toEndOf="@+id/carta1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893"
+        android:layout_marginLeft="5sp"
+        app:srcCompat="@drawable/cardback"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/carta3"
+        android:layout_width="56dp"
+        android:layout_height="86dp"
+        android:onClick="openCardDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toEndOf="@+id/carta2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893"
+        android:layout_marginLeft="5sp"
+        app:srcCompat="@drawable/cardback"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/carta4"
+        android:layout_width="56dp"
+        android:layout_height="86dp"
+        android:onClick="openCardDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toEndOf="@+id/carta3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893"
+        android:layout_marginLeft="5sp"
+        app:srcCompat="@drawable/cardback"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/musicButton"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="@drawable/circle_view"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/music"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/puntosPLYView"
+        android:layout_width="50sp"
+        android:layout_height="35sp"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/rounded_corner_view_white"
+        android:fontFamily="@font/ubunturegular"
+        android:gravity="center"
+        android:text="  "
+        android:textSize="30sp"
+        android:textColor="@color/billiard2"
+        app:layout_constraintBottom_toTopOf="@+id/carta3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puntosCPUView"
+        app:layout_constraintVertical_bias="0.926" />
+
+    <TextView
+        android:id="@+id/puntosCPUView"
+        android:layout_width="wrap_content"
+        android:layout_height="35sp"
+        android:textColor="@color/billiard2"
+        android:gravity="center"
+        android:text="      "
+        android:textSize="30sp"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/rounded_corner_view_white"
+        android:fontFamily="@font/ubuntulight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cartaCPU3"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntubold"
+        android:gravity="center"
+        android:text="  "
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puntosPLYView"
+        app:layout_constraintVertical_bias="0.768" />
+
+    <Button
+        android:id="@+id/mostrarButton"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_background_color_2"
+        android:fontFamily="@font/ubuntubold"
+        android:text="MOSTRAR"
+        android:textColor="@color/white"
+        android:onClick="mostrarCartas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <Button
+        android:id="@+id/tomarButton"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_background_color_3"
+        android:fontFamily="@font/ubuntubold"
+        android:text="TOMAR"
+        android:textColor="@color/white"
+        android:onClick="tomarCarta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toEndOf="@+id/mostrarButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

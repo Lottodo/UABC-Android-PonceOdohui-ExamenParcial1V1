@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--When Button is not enabled -->
+    <item android:state_enabled="false">
+        <shape android:shape="oval">
+            <solid android:color="#b6b7b5"/>
+        </shape>
+    </item>
+    <!--<item android:state_enabled="false" android:color="#b6b7b5" /> -->
+
+    <!--When Button is in pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#22a540"/>
+        </shape>
+    </item>
+    <!--<item android:state_pressed="true" android:color="#22a540" /> -->
+
+    <!--When Button is in selected state -->
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <solid android:color="#fabcff"/>
+        </shape>
+    </item>
+    <!--<item android:state_selected="true" android:color="#fabcff" /> -->
+
+    <!--Default Background Color -->
+
+    <item android:state_pressed="false">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item>
+</selector>
